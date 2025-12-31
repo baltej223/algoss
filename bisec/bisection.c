@@ -2,7 +2,7 @@
 
 float Bisection(float (*eq)(float x), float left, float right, float tol){
   
-  printf("%d\n", eq(21));
+  // printf("%d\n", eq(21));
 
    if (eq(left)*eq(right) > 0){
      return -1;
@@ -19,7 +19,7 @@ float Bisection(float (*eq)(float x), float left, float right, float tol){
   float root = (right+left)/2;
   float prev_root = root;
   float err = FLT_MAX;
-  printf("The error is %f\n", err);
+  // printf("The error is %f\n", err);
 
   while (err > tol){
     if (eq(root) * eq(left) < 0){

@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-  char a[] = "Baltej Singh";
+  char a[] = "Baltej";
   int key = 21;
   char b[strlen(a)+1];
 
